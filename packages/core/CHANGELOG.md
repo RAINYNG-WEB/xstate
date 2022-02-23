@@ -1,5 +1,11 @@
 # xstate
 
+## 4.30.3
+
+### Patch Changes
+
+- [#3082](https://github.com/statelyai/xstate/pull/3082) [`8d3f2cfea`](https://github.com/statelyai/xstate/commit/8d3f2cfea7b57b6293fd862844400353e2a7451a) Thanks [@Andarist](https://github.com/Andarist)! - Fixed an issue with context type being inferred from too many places within `createMachine` call and possibly ending up as `any` for the entire machine.
+
 ## 4.30.2
 
 ### Patch Changes
